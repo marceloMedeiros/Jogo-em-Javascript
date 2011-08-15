@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="E:\Dropbox\Compartilhada\Projetos\Jogo em Javascript\Jogo em Javascript.clpprj">
+	<settings><PM_URL><![CDATA[C:/Users/Marcelo/AppData/Roaming/ClPhpEd/Projects/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Users/Marcelo/AppData/Roaming/ClPhpEd/Projects/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS></settings><removed value=";"/><added value=""/><dplmenupath>
+	</dplmenupath><smartyassings>
+	</smartyassings><codestructure>
+		<csfile name="E:\Dropbox\Compartilhada\Projetos\Jogo em Javascript\Jogo em Javascript.clpprj" crc="1560936975">
+		</csfile><csfile name="E:\Dropbox\Compartilhada\Projetos\Jogo em Javascript\Jogo em Javascript\js\mapa.js" crc="165999716">
+		</csfile><csfile name="E:\Dropbox\Compartilhada\Projetos\Jogo em Javascript\Jogo em Javascript\js\main.js" crc="-976424294">
+		</csfile><csfile name="E:\Dropbox\Compartilhada\Projetos\Jogo em Javascript\Jogo em Javascript\js\io.js" crc="937707792">
+			<jstree>
+				<treenode node="initListeners;JS:Function Name;0;3;1;10;34;;;v;;r;;d25,3;;b0,0;;m">
+					<treenode node="document;JS:JS Var Name;1;8;9;8;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="onKeyDown;JS:JS Var Name;39;8;48;8;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="onKeyUp;JS:JS Var Name;37;9;44;9;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="onKeyDown;JS:Function Name;0;12;1;23;34;;;v;;r;;d0,13;;b0,0;;me;;p">
+					<treenode node="downDown;JS:JS Var Name;26;15;34;15;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="e;JS:JS Var Name;19;12;20;12;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="leftDown;JS:JS Var Name;26;16;34;16;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rightDown;JS:JS Var Name;27;17;36;17;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="spaceDown;JS:JS Var Name;2;21;11;21;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="upDown;JS:JS Var Name;21;14;27;14;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="onKeyUp;JS:Function Name;0;25;1;33;34;;;v;;r;;d0,26;;b0,0;;me;;p">
+					<treenode node="downDown;JS:JS Var Name;26;28;34;28;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="e;JS:JS Var Name;17;25;18;25;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="leftDown;JS:JS Var Name;26;29;34;29;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rightDown;JS:JS Var Name;27;30;36;30;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="spaceDown;JS:JS Var Name;27;31;36;31;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="upDown;JS:JS Var Name;21;27;27;27;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="downDown;JS:JS Var Name;33;1;41;1;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="leftDown;JS:JS Var Name;4;1;12;1;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="rightDown;JS:JS Var Name;14;1;23;1;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="spaceDown;JS:JS Var Name;43;1;52;1;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="upDown;JS:JS Var Name;25;1;31;1;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</jstree>
+		</csfile><csfile name="E:\Dropbox\Compartilhada\Projetos\Jogo em Javascript\Jogo em Javascript\js\animacoes.js" crc="-2032668168">
+			<jstree>
+				<treenode node="anima;JS:Function Name;0;14;1;32;34;;;v;;r;;d0,15;;b0,0;;mIdSprite;;pnumQuadros;;plarguraSprite;;poffSet;;p">
+					<treenode node="document;JS:JS Var Name;14;16;22;16;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="IdSprite;JS:JS Var Name;15;14;23;14;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="larguraSprite;JS:JS Var Name;37;14;50;14;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="numQuadros;JS:JS Var Name;25;14;35;14;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="offSet;JS:JS Var Name;52;14;58;14;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sprite;JS:JS Var Name;5;16;11;16;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="xPos;JS:JS Var Name;5;17;9;17;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="yPos;JS:JS Var Name;5;18;9;18;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="movimenta;JS:Function Name;0;34;1;49;34;;;v;;r;;d0,35;;b0,0;;mIdSprite;;px;;py;;p">
+					<treenode node="document;JS:JS Var Name;14;36;22;36;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="IdSprite;JS:JS Var Name;19;34;27;34;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sprite;JS:JS Var Name;5;36;11;36;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="x;JS:JS Var Name;29;34;30;34;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="xPos;JS:JS Var Name;5;37;9;37;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="y;JS:JS Var Name;32;34;33;34;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="yPos;JS:JS Var Name;5;38;9;38;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</jstree>
+		</csfile><csfile name="E:\Dropbox\Compartilhada\Projetos\Jogo em Javascript\Jogo em Javascript\teste.html" crc="2121101097">
+			<jstree>
+				<treenode node="iniciar;JS:Function Name;0;12;1;15;34;;;v;;r;;d0,13;;b0,0;;m">
+				</treenode>
+			</jstree>
+		</csfile></codestructure><dbgurls>
+	</dbgurls>
+</project>

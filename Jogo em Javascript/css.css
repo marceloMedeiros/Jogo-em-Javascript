@@ -1,0 +1,31 @@
+.quadradoBranco{
+    background-color: gray; 
+    color: #666666; 
+    width:80px;
+	height:80px;
+	z-index:998;
+    
+     }
+.quadradoPreto{
+    background-color: black; 
+    color: #666666; 
+    width:80px;
+	height:80px;
+	z-index:998
+   }   
+   .sprite{
+    background-image: url("img/Wizards.jpg");
+	background-repeat: no-repeat;
+	width:50px;
+	height:65px;	 
+	z-index:999;	
+	overflow: hidden;	
+	 margin: 0 ;
+	  padding: 0 ;
+   }      
+      .rotaciona{
+   -webkit-transform: rotateY(-180deg);
+         }
+
+   
+   

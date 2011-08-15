@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Jogo em Javascript", "..\Jogo em Javascript", "{376E7C22-C1E6-4133-B313-041C451AE838}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Jogo em Javascript"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\My Dropbox\Compartilhada\Projetos\Jogo em Javascript\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Jogo em Javascript\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Jogo em Javascript"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\My Dropbox\Compartilhada\Projetos\Jogo em Javascript\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Jogo em Javascript\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1676"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{376E7C22-C1E6-4133-B313-041C451AE838}.Debug|.NET.ActiveCfg = Debug|.NET
+		{376E7C22-C1E6-4133-B313-041C451AE838}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
