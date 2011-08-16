@@ -21,6 +21,10 @@ function onKeyDown(e)
 		//player.jump(); 
 		spaceDown = true;
 	}
+	if (rightDown){	facingRight = true;	}
+	if (leftDown){ facingRight = false;	}
+	if (upDown){ goingUp = true; }
+	if (downDown){ goingUp = false; }
 }
 
 function onKeyUp(e) 
@@ -30,5 +34,6 @@ function onKeyUp(e)
 	else if(e.keyCode == 37) leftDown = false; 
 	else if (e.keyCode == 39) rightDown = false;
 	else if (e.keyCode == 32) spaceDown = false;
-			
+	
+
 }

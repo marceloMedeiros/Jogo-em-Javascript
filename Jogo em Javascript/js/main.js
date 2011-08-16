@@ -1,28 +1,34 @@
-	var fps = 4;
-	criaMapa(4, 6, "Preto", 10, 10, true);
+	var fps = 15;
+	var animationSpeed = 3.5;
+	var velocidadeMovimento = 4;
+	facingRight = false;
+	goingUp = false;
+	doAnimation = false;
+	//criaMapa(4, 6, "Preto", 10, 10, true);
 	initListeners();
 	window.setInterval('main()', 1000/  fps);
+	window.setInterval('animaSprites()', 1000/  animationSpeed);
+	
+		
 
 function main()
 {
-	animaSprites();
+
 	checaInputs();
 }
 
 function animaSprites()
 {
-	anima("sprite1", 4, 64, 5);
-	anima("sprite2", 4, 64, 265);
-	anima("sprite3", 4, 64, 5);
-	anima("sprite4", 4, 64, 265);
+	anima("emo", 3, 218, 140);
 }
 
 function checaInputs()
 {
-	if (leftDown) 	{ movimenta("sprite1", 0, 1) ; }
-	if (rightDown) 	{ movimenta("sprite1", 0, -1); }
-	if (upDown) 	{ movimenta("sprite1", 1, 0) ; }
-	if (downDown) 	{ movimenta("sprite1", -1, 0); }
-		// spaceDown;
-
+	if (leftDown) 	{ movimenta("emo", 0, -velocidadeMovimento) ; }
+	if (rightDown) 	{ movimenta("emo", 0, velocidadeMovimento); }
+	if (upDown) 	{ movimenta("emo", -velocidadeMovimento, 0) ; }
+	if (downDown) 	{ movimenta("emo", velocidadeMovimento, 0); }
+	
+	doAnimation = (leftDown || rightDown );
+//|| upDown || downDown
 }

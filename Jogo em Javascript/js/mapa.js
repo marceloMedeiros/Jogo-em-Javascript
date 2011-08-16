@@ -5,7 +5,8 @@ function criaMapa(linhas, colunas, cor, vtop, vleft, alternaCor)
 		for (c=1;c<=colunas;c++)
 		{
 			
-			document.write('<div id="'+ l + retornaColuna(c) + '" class="quadrado' + cor + '"  style="position: absolute;	top:' + vtop + 'px;	left: ' + vleft + 'px;">     </div> ');
+			document.write('<div id="'+ l + retornaColuna(c) + '" class="quadradoBorda' + cor + 
+			               '"  style="position: absolute;	top:' + vtop + 'px;	left: ' + vleft + 'px;">     </div> ');
 			vleft+=80;
 			if (alternaCor) 
 			{

@@ -13,19 +13,93 @@
 	height:80px;
 	z-index:998
    }   
-   .sprite{
+.quadradoBordaBranco{
+    background-color: white; 
+	border-width:1px;
+	border-color: red;
+	border-style:solid;
+    color: #666666; 
+    width:79px;
+	height:79px;
+	z-index:998;
+   }
+.quadradoBordaPreto{
+    background-color: white; 
+    border-width:1px;
+	border-color:black;	
+    border-style:solid;
+    color: #666666; 
+    width:79px;
+	height:79px;
+	z-index:998
+   } 
+   
+   
+/*Sprites    */        
+.blackMage-Normal{
     background-image: url("img/Wizards.jpg");
 	background-repeat: no-repeat;
+	background-position:-5px 0px;
 	width:50px;
 	height:65px;	 
 	z-index:999;	
 	overflow: hidden;	
-	 margin: 0 ;
-	  padding: 0 ;
+	margin: 0 ;
+	padding: 0 ;
    }      
-      .rotaciona{
-   -webkit-transform: rotateY(-180deg);
-         }
-
+.blackMage-Back{
+    background-image: url("img/Wizards.jpg");
+	background-repeat: no-repeat;
+	background-position:-5px -65px;
+	width:50px;
+	height:65px;	 
+	z-index:999;	
+	overflow: hidden;	
+	margin: 0 ;
+	padding: 0 ;
+   } 
+   
+.emo-Right{
+    background-image: url("img/carinha.png");
+	background-repeat: no-repeat;
+	background-position:-20px -20px;
+	width:147px;
+	height:300px;	 
+	z-index:999;	
+	overflow: hidden;	
+	margin: 0 ;
+	padding: 0 ;
+   }             
+.emo-Back{
+    background-image: url("img/carinha.png");
+	background-repeat: no-repeat;
+	/*background-position:-470px -20px;*/
+		background-position:-140px -615px;
+	width:218px;
+	height:300px;	 
+	z-index:999;	
+	overflow: hidden;	
+	margin: 0 ;
+	padding: 0 ;
+   }       
+.emo-Normal{
+    background-image: url("img/carinha.png");
+	background-repeat: no-repeat;
+	background-position:-140px -615px;
+	width:218px;
+	height:300px;	 
+	z-index:999;	
+	overflow: hidden;	
+	margin: 0 ;
+	padding: 0 ;
+   }      
+   
+   
+/*Efeitos   */   
+   .rotaciona{
+   -webkit-transform: rotateY(-180deg);*/
+   }
+   
+/*160px 310px
    
    
